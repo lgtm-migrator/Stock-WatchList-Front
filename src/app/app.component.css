@@ -1,0 +1,31 @@
+.slider-nav {
+  width: 12%;
+}
+
+.slider-container {
+	flex: 1;
+}
+
+.slider-nav button {
+  width: 100%;
+  padding: 0 .25em;
+}
+
+a button  {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+mat-toolbar > * {
+	margin: 0 .1em;
+}
