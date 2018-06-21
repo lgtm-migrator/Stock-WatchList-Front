@@ -1,3 +1,12 @@
-<p>
-  new-list works!
-</p>
+<div>
+  <mat-form-field>
+    <input matInput placeholder="Add Stock Symbol" (keydown.enter)="AddItem($event.target.value)" [(ngModel)]="symbol">
+  </mat-form-field>
+<!--   <mat-list-option *ngFor="let item of newListItems">
+    {{item}}
+  </mat-list-option> -->
+  <div *ngFor="let item of newListItems; let i = index">
+  	<span class="sym-area">{{item}}</span>
+  	<button mat-icon-button (click)="removeItem(i)"  ><mat-icon>clear</mat-icon></button>
+  </div>
+</div>
