@@ -14,15 +14,18 @@ import {
 	MatIconModule,
 	MatInputModule,
 	MatListModule,
-	MatFormFieldModule
+	MatFormFieldModule,
+	MatSnackBarModule
 } from '@angular/material';
-import { NewListComponent } from './new-list/new-list.component'; 
+import { NewListComponent } from './new-list/new-list.component';
+import { HelpComponent } from './help/help.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    NewListComponent
+    NewListComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +37,7 @@ import { NewListComponent } from './new-list/new-list.component';
 	MatInputModule,
 	MatListModule,
 	MatFormFieldModule,
+	MatSnackBarModule,
 	AppRoutingModule,
 	FormsModule
   ],

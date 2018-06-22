@@ -1,3 +1,22 @@
 .sym-area {
 	width: 20%;
 }
+
+.watch-items-add {
+	margin: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.list-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.submit-button {
+	margin: 2em auto;
+}
